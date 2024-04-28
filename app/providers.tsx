@@ -1,11 +1,14 @@
 'use client'
 
-import {NextUIProvider} from '@nextui-org/react'
+import { NextUIProvider } from '@nextui-org/react'
+import { ViewTransitions } from 'next-view-transitions'
 
-export function Providers({children}: { children: React.ReactNode }) {
+export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <NextUIProvider>
-      {children}
+      <ViewTransitions>
+        {children}
+      </ViewTransitions>
     </NextUIProvider>
   )
 }
