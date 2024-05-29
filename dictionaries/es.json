@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "Acerca de"
+  },
+  "page": {
+    "home": {
+      "title": "hola",
+      "description": "mundo"
+    }
+  }
+}
